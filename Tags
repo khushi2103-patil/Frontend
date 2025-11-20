@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Basic tags</title>
+    </head>
+    <body>
+        <h1>H1 tags with 32px size</h1>
+        <h2>H2 tags with 24px size</h2>
+        <h3>H3 tags with 18.72px size</h3>
+        <h4>H4 tags with 16px size</h4>
+        <h5>H5 tags with 13.28px size</h5>
+        <h6>H6 tags with 10.72px size</h6>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur quibusdam a. Ullam, ipsum quos, eligendi quibusdam magni velit 
+        ad inventore impedit rerum exercitationem nulla unde fugit officia maiores. Ea sequi iusto sunt, reprehenderit tenetur vel accusantium dolores 
+        fugit dignissimos aliquam porro doloremque corporis reiciendis eligendi libero soluta dolorum deleniti quia. Esse quas natus ratione unde vitae 
+        maiores labore ut dolorum architecto dolore vel accusantium laudantium aliquam optio nihil magnam facere tempore animi aspernatur consequatur, 
+        ea obcaecati officiis. Temporibus neque soluta eveniet ab voluptas quasi esse eos, facilis itaque iure est incidunt obcaecati delectus enim 
+        reiciendis velit ipsam eaque earum? </p> 
+
+        <!-- image -->
+        <!-- absolute path -->
+
+        <img src="https://cdn.pixabay.com/photo/2015/11/03/10/23/watercolor-1020509_1280.jpg" 
+        alt="Girl image"
+        width="400px"
+        height="200px"
+        /> 
+        <!-- alt attribute is used for whenever the picture is not present or we have improperly write the path
+      and if we have given alt attribute name then the name will show on the screen. -->
+
+        <img src="https://cdn.pixabay.com/photo/2015/11/03/10/23/watercolor-1020509_1280.j" alt="Girl image"/> 
+         
+        <!-- relative path -->
+        <img src="./asset/A_curious_kitten_(Pixabay).jpg" 
+        alt="A_curious_kitten_"
+        width="400px"
+        height="200px"
+        />
+        
+     
+<!-- anchor tag -->
+   <!-- absolute path -->
+
+<a href="https://google.com" target="_self">Google</a>
+<a href="htttps://instagram.com" target="_blank">Instagram</a>
+
+<!-- relative path -->
+
+<a href="./Day 2-Basictags.html">excelR</a> 
+
+<!-- hashed navigation -->
+<div>
+    <p>
+        <h4>navbar</h4>
+        <a href="#gallery">gallery</a> 
+        <!-- # is important for navigating the page -->
+        <a href="#login">login</a>
+    </p>
+</div>
+<div>
+    <h1>Home page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo animi esse asperiores architecto possimus officiis ducimus earum iste omnis sapiente, eos rerum at dignissimos id quia in rem voluptatibus?</p>
+</div>
+<hr>
+<div  id="gallery">
+    <h1>Gallery</h1>
+    <img src="./asset/A_curious_kitten_(Pixabay).jpg"/>
+</div>
+
+<div id="login">
+    <h1>Login</h1>
+    <p>
+        login
+        <br><br><br><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloremque esse aliquam eos cumque culpa reprehenderit excepturi nulla omnis iste officiis quae neque laborum, dignissimos totam in consequatur quidem! Delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti qui illo, voluptate assumenda beatae expedita sint similique quas sapiente amet optio doloremque ratione velit iure eum consectetur pariatur laborum.</p>
+    </p>
+</div>
+
+    </body>
+</html>
